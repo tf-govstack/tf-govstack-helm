@@ -51,7 +51,7 @@ service:
 
 image:
   registry: docker.io
-  repository: mosipqa/automationtests
+  repository: tf-govstack/automationtests
   tag: develop
 
   ## Specify a imagePullPolicy
