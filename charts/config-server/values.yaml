@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: mosipid/config-server
+  repository: technogovstack/config-server
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: 1.1.2
@@ -126,8 +126,8 @@ affinity: {}
 ## For private repos access token is required.
 ## version: branch/tag of the repo to be used
 gitRepo:
-  uri: https://github.com/mosip/mosip-config
-  version: 1.2.0-v3
+  uri: https://github.com/tf-govstack/mosip-config
+  version: tfgovstack-v1.2.0.1-B2
   ## Folders within the base repo where properties may be found.
   searchFolders: ""
   private: false
