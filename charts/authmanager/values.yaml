@@ -51,7 +51,7 @@ service:
 
 image:
   registry: docker.io
-  repository: mosipid/kernel-auth-service
+  repository: technogovstack-/kernel-auth-service
   tag: 1.2.0.1-B2
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
