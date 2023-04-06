@@ -51,7 +51,7 @@ service:
 
 image:
   registry: docker.io
-  repository: mosipid/hotlist-service
+  repository: tf-govstack/hotlist-service
   tag: 1.2.0.1-B1
 
   ## Specify a imagePullPolicy
