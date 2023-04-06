@@ -51,7 +51,7 @@ service:
 
 image:
   registry: docker.io
-  repository: mosipid/pmp-ui
+  repository: technogovstack/pmp-ui
   tag: 1.2.0.1-B1
 
   ## Specify a imagePullPolicy
