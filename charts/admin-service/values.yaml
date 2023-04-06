@@ -51,7 +51,7 @@ service:
 
 image:
   registry: docker.io
-  repository: mosipid/admin-service
+  repository: tf-govstack/admin-service
   tag: 1.2.0.1-B1
 
   ## Specify a imagePullPolicy
