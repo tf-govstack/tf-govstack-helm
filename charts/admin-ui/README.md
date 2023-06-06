@@ -1,6 +1,6 @@
 # Authmanager
 
-Helm chart for installing MOSIP Admin UI module
+Helm chart for installing MOSIP Admin UI module.
 
 ## TL;DR
 
