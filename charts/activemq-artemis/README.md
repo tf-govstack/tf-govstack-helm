@@ -1,4 +1,4 @@
-* `sessionAffinity` did not work with AWS loadbalancer, so switched off.
+* `sessionAffinity` did not work with AWS loadbalancer, so switched off..
 * Replication has been forced to 1 and behaviour of multiple masters/slaves needs to be understood well.
 * Persitence must be enabled for failover and failback to work properly.  See [issue](https://github.com/vromero/activemq-artemis-helm/issues/22)
 * Original chart was modified as below:
