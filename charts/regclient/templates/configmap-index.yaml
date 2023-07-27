@@ -25,7 +25,7 @@ data:
     </style>
     <body>
       <div class="content">
-        <img src="https://mosip.github.io/mosip-helm/mosip_logo.png">
+        <img src="https://tf-govstack.github.io/tf-govstack-helm/mosip_logo.png">
         <h2 style="font-family:verdana;"> Registration Client</h2>
         <a href="https://{{ .Values.istio.host }}/registration-client/{{ .Values.regclient.version  }}/reg-client.zip" style="font-family:verdana;">Windows 10</a>
         <h4 style="font-family:verdana;"> Registration Client Test Utility</h2>
