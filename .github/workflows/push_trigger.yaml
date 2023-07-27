@@ -48,7 +48,7 @@ jobs:
             - name: Generate tar files
               run: |
                   echo "BRANCH_NAME=$BRANCH_NAME";
-                  helm repo add mosip https://tf-govstack.github.io/tf-govstack-helm
+                  helm repo add mosip https://tf-govstack.github.io/mosip-helm
 
                   echo "COMMIT=${{ env.COMMIT_ID }}"
                   echo "SKIP=FALSE" >> $GITHUB_ENV
@@ -94,7 +94,7 @@ jobs:
             - name: Update index.yaml
               run: |
                   git status
-                  helm repo index --url https://tf-govstack.github.io/tf-govstack-helm/ .
+                  helm repo index --url https://tf-govstack.github.io/mosip-helm/ .
               if: env.SKIP != 'TRUE'
 
             - name: Commit Changes to mosip-helm Repository

@@ -5,7 +5,7 @@ Helm chart for installing reporting module
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://tf-govstack.github.io/tf-govstack-helm
+$ helm repo add mosip https://tf-govstack.github.io/mosip-helm
 $ helm install my-release mosip/reporting
 ```
 

@@ -27,7 +27,7 @@ data:
     <body>
     <header class="w3-container w3-teal w3-center">
       <div class="w3-padding">
-        <img src="https://tf-govstack.github.io/tf-govstack-helm/mosip_logo.png" width="50px">
+        <img src="https://tf-govstack.github.io/mosip-helm/mosip_logo.png" width="50px">
         <h3>MOSIP Deployment</h3>
         <h2><b>{{ .Values.landing.name }}</b></h2>
         <h3>Version: {{ .Values.landing.version }}</h3>
