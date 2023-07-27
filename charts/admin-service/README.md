@@ -1,4 +1,4 @@
-## Admin Service
+### Admin Service
 
 Helm chart for installing MOSIP Admin module
 
