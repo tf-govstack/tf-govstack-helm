@@ -4,7 +4,7 @@
 Helm charts for all MOSIP services. The charts here are published in `gh-pages` branch of this repo. To install the charts add the respository as below:
 
 ```
-helm repo add mosip https://mosip.github.io/mosip-helm
+helm repo add mosip https://tf-govstack.github.io/tf-govstack-helm
 ```
 
 ## Publish charts manually
