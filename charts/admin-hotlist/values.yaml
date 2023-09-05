@@ -51,8 +51,8 @@ service:
 
 image:
   registry: docker.io
-  repository: technogovstack/hotlist-service
-  tag: release-1.2.0.1.1
+  repository: tfgovstackdev/hotlist-service
+  tag: tf-develop
 
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
