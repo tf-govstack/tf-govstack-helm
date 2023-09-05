@@ -52,8 +52,8 @@ service:
 
 image:
   registry: docker.io
-  repository: technogovstack/id-repository-vid-service
-  tag: release-1.2.0.1.1
+  repository: tfgovstackdev/id-repository-vid-service
+  tag: tf-develop
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
   ## ref: http://kubernetes.io/docs/user-guide/images/#pre-pulling-images
