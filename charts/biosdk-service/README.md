@@ -5,8 +5,8 @@ Helm chart for installing BioSDK Service.  The service expects an SDK jar provid
 ## Install
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/biosdk-service
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/biosdk-service
 ```
 
 

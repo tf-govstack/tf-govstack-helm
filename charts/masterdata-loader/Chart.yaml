@@ -11,7 +11,7 @@ dependencies:
       - bitnami-common
     version: 1.x.x
 
-home: https://mosip.io
+home: https://tf-govstack.github.io
 keywords:
   - postgres
   - db

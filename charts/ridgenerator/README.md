@@ -5,8 +5,8 @@ Helm chart for installing Kernel module RIDgenerator.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/ridgenerator
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/ridgenerator
 ```
 
 ## Introduction
@@ -25,7 +25,7 @@ RIDgenerator is  part of the kernel modules, but has a separate Helm chart so as
 To install the chart with the release name `ridgenerator`.
 
 ```console
-helm install my-release mosip/ridgenerator
+helm install my-release tf-govstack/ridgenerator
 ```
 
 > **Tip**: List all releases using `helm list`

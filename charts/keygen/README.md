@@ -5,8 +5,8 @@ Helm chart for installing Kernel module keygen.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/keygen
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/keygen
 ```
 
 ## Introduction
@@ -25,7 +25,7 @@ The helm chart here essentially contains job that generates encryption keys for 
 To install the chart with the release name `keygen`.
 
 ```console
-helm install my-release mosip/keygen
+helm install my-release tf-govstack/keygen
 ```
 
 The command deploys keygen on the Kubernetes cluster in the default configuration. The [Parameters](#parameters) section lists the parameters that can be configured during installation.

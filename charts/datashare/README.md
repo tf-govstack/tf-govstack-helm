@@ -5,7 +5,7 @@ Helm chart for installing Datashare Service
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
+$ helm repo add tf-govstack  https://tf-govstack.github.io
 $ helm -n datashare install my-release mosip/datashare
 ```
 

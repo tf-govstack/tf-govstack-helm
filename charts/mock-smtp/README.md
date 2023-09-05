@@ -5,7 +5,7 @@ Helm chart for installing for mock-smtp server.
 ## Install
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/mock-smtp
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/mock-smtp
 ```
 

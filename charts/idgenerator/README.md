@@ -5,8 +5,8 @@ Helm chart for installing Kernel module Idgenerator.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/idgenerator
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/idgenerator
 ```
 
 ## Introduction
@@ -25,7 +25,7 @@ Idgenerator is  part of the kernel modules, but has a separate Helm chart so as 
 To install the chart with the release name `idgenerator`.
 
 ```console
-helm install my-release mosip/idgenerator
+helm install my-release tf-govstack/idgenerator
 ```
 
 > **Tip**: List all releases using `helm list`

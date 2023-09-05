@@ -5,8 +5,8 @@ Helm chart for installing Kernel module OTPManager.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/partner-onboarder
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/partner-onboarder
 ```
 
 ## Introduction
@@ -25,7 +25,7 @@ OTPManager is  part of the kernel modules, but has a separate Helm chart so as t
 To install the chart with the release name `partner-onboarder`.
 
 ```console
-helm install my-release mosip/partner-onboarder
+helm install my-release tf-govstack/partner-onboarder
 ```
 
 > **Tip**: List all releases using `helm list`

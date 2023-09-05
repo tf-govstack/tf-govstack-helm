@@ -5,8 +5,8 @@ Helm chart for installing Kernel module Syncdata.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/syncdata
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/syncdata
 ```
 
 ## Introduction
@@ -25,7 +25,7 @@ Syncdata is  part of the kernel modules, but has a separate Helm chart so as to 
 To install the chart with the release name `syncdata`.
 
 ```console
-helm install my-release mosip/syncdata
+helm install my-release tf-govstack/syncdata
 ```
 
 > **Tip**: List all releases using `helm list`

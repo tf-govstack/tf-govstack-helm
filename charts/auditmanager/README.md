@@ -5,8 +5,8 @@ Helm chart for installing Kernel module Auditmanager.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/auditmanager
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/auditmanager
 ```
 
 ## Introduction
@@ -25,7 +25,7 @@ Auditmanager is  part of the kernel modules, but has a separate Helm chart so as
 To install the chart with the release name `auditmanager`.
 
 ```console
-helm install my-release mosip/auditmanager
+helm install my-release tf-govstack/auditmanager
 ```
 
 > **Tip**: List all releases using `helm list`

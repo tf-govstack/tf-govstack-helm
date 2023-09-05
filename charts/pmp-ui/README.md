@@ -5,8 +5,8 @@ Helm chart for installing MOSIP PMP UI module
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/pmp-ui
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/pmp-ui
 ```
 
 ## Prerequisites
@@ -21,7 +21,7 @@ $ helm install my-release mosip/pmp-ui
 To install the chart with the release name `pmp-ui`.
 
 ```console
-helm install my-release mosip/pmp-ui
+helm install my-release tf-govstack/pmp-ui
 ```
 
 > **Tip**: List all releases using `helm list`

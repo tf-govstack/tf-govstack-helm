@@ -5,8 +5,8 @@ Helm chart for installing Packetmanager module.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/packetmanager
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/packetmanager
 ```
 
 ## Prerequisites

@@ -5,6 +5,6 @@ Helm chart for running Regproc Salt Generator
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/regproc-salt
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/regproc-salt
 ```

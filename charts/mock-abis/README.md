@@ -5,8 +5,8 @@ Helm chart for installing Kernel module Mock-ABIS.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/mock-abis
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/mock-abis
 ```
 
 ## Introduction
@@ -25,7 +25,7 @@ Mock-ABIS is  part of the kernel modules, but has a separate Helm chart so as to
 To install the chart with the release name `mock-abis`.
 
 ```console
-helm install my-release mosip/mock-abis
+helm install my-release tf-govstack/mock-abis
 ```
 
 The command deploys mock-abis on the Kubernetes cluster in the default configuration. The [Parameters](#parameters) section lists the parameters that can be configured during installation.

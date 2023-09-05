@@ -5,8 +5,8 @@ Helm chart for installing Kernel module PRIDgenerator.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/pridgenerator
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/pridgenerator
 ```
 
 ## Introduction
@@ -25,7 +25,7 @@ PRIDgenerator is  part of the kernel modules, but has a separate Helm chart so a
 To install the chart with the release name `pridgenerator`.
 
 ```console
-helm install my-release mosip/pridgenerator
+helm install my-release tf-govstack/pridgenerator
 ```
 
 > **Tip**: List all releases using `helm list`
