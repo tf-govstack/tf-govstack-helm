@@ -5,8 +5,8 @@ Helm chart for installing Artifactory
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/artifactory
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/artifactory
 ```
 
 ## Introduction
@@ -25,7 +25,7 @@ $ helm install my-release mosip/artifactory
 To install the chart with the release name `my-release`:
 
 ```console
-helm install my-release mosip/artifactory
+helm install my-release tf-govstack/artifactory
 ```
 
 The command deploys artifactory on the Kubernetes cluster in the default configuration. The [Parameters](#parameters) section lists the parameters that can be configured during installation.

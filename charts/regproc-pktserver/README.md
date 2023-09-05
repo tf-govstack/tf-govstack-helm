@@ -5,8 +5,8 @@ Helm chart for installing RegProc Packet Server.  This serves packets from landi
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/regproc-pktserver
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/regproc-pktserver
 ```
 ## Persistence
 It is assumed PVC created in Receiver is available to be mounted here.

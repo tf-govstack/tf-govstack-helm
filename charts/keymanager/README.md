@@ -5,8 +5,8 @@ Helm chart for installing Kernel module Keymanager.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/keymanager
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/keymanager
 ```
 
 ## Introduction
@@ -25,7 +25,7 @@ Keymanager is  part of the kernel modules, but has a separate Helm chart so as t
 To install the chart with the release name `keymanager`.
 
 ```console
-helm install my-release mosip/keymanager
+helm install my-release tf-govstack/keymanager
 ```
 
 The command deploys keymanager on the Kubernetes cluster in the default configuration. The [Parameters](#parameters) section lists the parameters that can be configured during installation.

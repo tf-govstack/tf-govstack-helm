@@ -5,8 +5,8 @@ Helm chart for installing Kernel module Masterdata.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/masterdata
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/masterdata
 ```
 
 ## Introduction
@@ -25,7 +25,7 @@ Masterdata is  part of the kernel modules, but has a separate Helm chart so as t
 To install the chart with the release name `masterdata`.
 
 ```console
-helm install my-release mosip/masterdata
+helm install my-release tf-govstack/masterdata
 ```
 
 > **Tip**: List all releases using `helm list`

@@ -5,8 +5,8 @@ Helm chart to run IDRepo salt generator.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/idrepo-saltgen
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/idrepo-saltgen
 ```
 
 ## Prerequisites

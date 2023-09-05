@@ -5,8 +5,8 @@ Helm chart for installing Partner Management Policy module.  The module is gener
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/pms-policy
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/pms-policy
 ```
 ## Prerequisites
 

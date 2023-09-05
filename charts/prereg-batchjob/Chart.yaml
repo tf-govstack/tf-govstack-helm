@@ -1,6 +1,6 @@
 apiVersion: v2
 name: prereg-batchjob
-description: A Helm chart for MOSIP Pre-registration Batchjob service
+description: A Helm chart for TF-GOVSTACK Pre-registration Batchjob service
 type: application
 version: 12.0.1-GB2
 appVersion: ""
@@ -10,7 +10,7 @@ dependencies:
     tags:
       - bitnami-common
     version: 1.x.x
-home: https://mosip.io
+home: https://tf-govstack.github.io
 keywords:
   - mosip
   - prereg-batchjob

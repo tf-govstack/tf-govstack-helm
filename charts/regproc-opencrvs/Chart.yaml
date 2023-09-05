@@ -1,10 +1,10 @@
 apiVersion: v2
 name: regproc-opencrvs
-description: A Helm chart for mosip regproc-opencrvs stage.
+description: A Helm chart for TF-GOVSTACK regproc-opencrvs stage.
 type: application
 version: 12.0.1-GB3
 appVersion: ""
-home: https://mosip.io
+home: https://tf-govstack.github.io
 dependencies:
 - name: common
   repository: https://charts.bitnami.com/bitnami

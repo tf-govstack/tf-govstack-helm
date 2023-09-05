@@ -5,7 +5,7 @@ Helm chart for installing RegProc Group 1 stage.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/regproc-group1
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/regproc-group1
 ```
 

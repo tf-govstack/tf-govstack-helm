@@ -5,7 +5,7 @@ Helm chart for installing IDrepo Identity service.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
+$ helm repo add tf-govstack  https://tf-govstack.github.io
 $ helm -n idrepo install my-release mosip/identity
 ```
 ## Prerequisites

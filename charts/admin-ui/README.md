@@ -5,8 +5,8 @@ Helm chart for installing MOSIP Admin UI module.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/admin-ui
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/admin-ui
 ```
 
 ## Prerequisites
@@ -21,7 +21,7 @@ $ helm install my-release mosip/admin-ui
 To install the chart with the release name `admin-ui`.
 
 ```console
-helm install my-release mosip/admin-ui
+helm install my-release tf-govstack/admin-ui
 ```
 
 > **Tip**: List all releases using `helm list`

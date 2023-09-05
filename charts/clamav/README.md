@@ -5,8 +5,8 @@ Helm chart for installing Clamav AntiVirus.
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/clamav
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/clamav
 ```
 
 ## Introduction
@@ -25,7 +25,7 @@ $ helm install my-release mosip/clamav
 To install the chart with the release name `my-release`:
 
 ```console
-helm install my-release mosip/clamav
+helm install my-release tf-govstack/clamav
 ```
 
 The command deploys clamav on the Kubernetes cluster in the default configuration. The [Parameters](#parameters) section lists the parameters that can be configured during installation.

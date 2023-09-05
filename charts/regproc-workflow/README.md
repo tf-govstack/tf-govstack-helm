@@ -5,7 +5,7 @@ Helm chart for installing Regproc Workflow Manager
 ## TL;DR
 
 ```console
-$ helm repo add mosip https://mosip.github.io
-$ helm install my-release mosip/regproc-workflow
+$ helm repo add tf-govstack  https://tf-govstack.github.io
+$ helm install my-release tf-govstack/regproc-workflow
 ```
 
